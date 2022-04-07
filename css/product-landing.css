@@ -1,0 +1,52 @@
+html,body
+{
+     height: 100%;
+     width: 100%;
+     background-color: #000;
+     margin: 0;
+     font-family: 'Lato', sans-serif;
+}
+
+section
+{
+     height: 100%;
+     width: 100%;
+}
+
+.grid-2
+{
+     display: grid;
+     grid-template-columns: 50% 50%;
+
+}
+
+.box1
+{
+     display: grid;
+     justify-items:center;
+     align-items: center;
+     height: 100%;
+}
+
+.box2
+{
+     display: grid;
+     justify-items:center;
+     align-items: center;
+     height: 100%;
+}
+
+h1
+{
+     font-size: 5rem;
+     margin: 0;
+     color: #F39C12;
+     font-weight: 100;
+}
+h2
+{
+     font-size: 4rem;
+     margin: 0;
+     color: #F39C12;
+     font-weight: 700;
+}
